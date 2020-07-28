@@ -21,14 +21,14 @@ To the following:
 discounts = Discount.query.options(joinedload('*')).all()
 ```
 We eager load the `discount_type` relation on the `discount`, and can grab all information without multiple trips to the database:
-</pre>
+</pre>{{copy}}
 
 ## Custom Links
 Going back to our cloned performance overview dashboard, we can link to our runbook directly from the `Frontend Errors` graph.  
 
 Edit the `Frontend Errors` graph and click the `Custom Links` tab.
 
-Copy in the URL of our notebook and give it a name, like `Sprees Runbook for {{$env.value}}`. This will populate the link name with our `env` template variable. Click Done and Save.  
+Copy in the URL of our notebook and give it a name, like `Sprees Runbook for {{$env.value}}`{{copy}}. This will populate the link name with our `env` template variable. Click Done and Save.  
 
 Now, when we set `env` to `prod`, we can click on the `Frontend Errors` graph and see that our custom link has updated.  
 
