@@ -14,6 +14,14 @@
         {
           "text": "step2.md",
           "title": "Step 2"
+        },
+        {
+          "text": "runbook1.md",
+          "title": "Building Reusable Resources: Runbooks"
+        },
+        {
+          "text": "runbook2.md",
+          "title": "Runbooks Part 2"
         }
       ]
     },
