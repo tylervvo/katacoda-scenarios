@@ -1,1 +1,2 @@
-This is the introduction page for the scenario! Click the **Start Scenario** button to begin.
+## Welcome to Datadog 201 — Becoming a Power User! 
+Click the **Continue** button to begin!
