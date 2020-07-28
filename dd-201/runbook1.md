@@ -5,12 +5,12 @@ In your navigation bar, find the Notebook icon and click “New Notebook”, or 
  
 Let’s start by adding an overview of your services. You can paste this overview that a teammate has already written.
  
-```
+```{{copy}}
 ## Service Overview
 `ads-service`: Service to manage advertisement scheduling and displays  
 `discounts-service`: Service to manage discount codes and validation  
 `store-frontend`: Service for the store’s web frontend  
-```{{copy}}
+```
  
 ## Custom Troubleshooting
 Next, let's add a link to the dashboard you used to debug your service. Since we worked on `store-frontend`, we can link to the [RUM Performance Overview](https://app.datadoghq.com/screen/integration/30292/rum---performance-overview?from_ts=1595949761945&to_ts=1595953361945&live=true) dashboard.
