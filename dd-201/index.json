@@ -27,7 +27,16 @@
           "text": "runbook2.md",
           "title": "Runbooks Part 2"
         }
-      ]
+      ],
+      "assets": {
+        "host01": [
+          {
+            "file": "postlogs.py",
+            "target": "/root/lab/",
+            "chmod": "+x"
+          }
+	]
+      }
     },
     "environment": {
       "uilayout": "editor-terminal",
