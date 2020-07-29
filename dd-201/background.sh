@@ -17,3 +17,6 @@ sed -i "/volumes:/a \ \ \ \ \ \ - /sys/kernel/debug:/sys/kernel/debug" /ecommwor
 
 # Get the latest lab tools
 curl -s https://datadoghq.dev/katacodalabtools/r?raw=true|bash
+
+# Generate some logs for cost/price
+./postlogs.py 100

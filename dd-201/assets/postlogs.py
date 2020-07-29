@@ -1,9 +1,14 @@
 #!/usr/bin/python
 
 import os
+import sys
+import time
 import requests
 import json
 import random
+
+# Run once unless an argument is given e.g. `postlogs.py 10`
+posts = int(sys.argv[1]) if len(sys.argv) > 1 else 1
 
 items = [
 	{'id':'datadog-jr-spaghetti','name':'Datadog Jr. Spaghetti','price:':19.99,'cost':5.10},
@@ -20,19 +25,20 @@ items = [
 ]
 
 def post_log():
-	return
+    headers = {
+      'Content-Type' : 'application/json',
+      'DD-API-KEY': os.environ['DD_API_KEY']
+    }
+    url = 'https://http-intake.logs.datadoghq.com/v1/input'
+    payload = {
+      'ddsource': 'python',
+      'ddtags': 'env:ruby-shop, team:frontend',
+      'hostname': 'host01',
+      'message': '{"event":"add_to_cart","item":' + json.dumps(random.choice(items)) + '}',
+      'service': 'store-cartlogger'
+    }
+    r=requests.post(url, data=json.dumps(payload), headers=headers)
 
-headers = {
-  'Content-Type' : 'application/json',
-  'DD-API-KEY': os.environ['DD_API_KEY']
-}
-url = 'https://http-intake.logs.datadoghq.com/v1/input'
-payload = {
-  'ddsource': 'python',
-  'ddtags': 'env:ruby-shop, team:frontend',
-  'hostname': 'host01',
-  'message': '{"event":"add_to_cart","item":' + json.dumps(random.choice(items)) + '}',
-  'service': 'store-cartlogger'
-}
-r=requests.post(url, data=json.dumps(payload), headers=headers)
-
+for i in range(posts):
+    post_log()
+    time.sleep(1)
