@@ -1,6 +1,7 @@
 ### Step 1 - top level metrics… Continued
 
-#### Create your checkout uptime metrics
+
+**Create your checkout uptime metrics**
 Rather than focusing on the number of successful times people were able to checkout, we want to instead focus on the percentage of time the checkout was available. 
 
 We’re going to do this by creating a synthetics test 
