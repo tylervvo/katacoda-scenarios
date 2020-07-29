@@ -2,7 +2,7 @@
 ln -s /ecommworkshop /root/lab
 
 # Enable system probe for NPM
-sed -i "/- DD_TAGS='env:ruby-shop'/r"<(
+sed -i "/- DD_TAGS='env:dd201'/r"<(
     echo "      - DD_SYSTEM_PROBE_ENABLED=true"
     echo "    cap_add:"
     echo "      - SYS_ADMIN"
