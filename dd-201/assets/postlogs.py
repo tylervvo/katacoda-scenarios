@@ -29,7 +29,7 @@ headers = {
 url = 'https://http-intake.logs.datadoghq.com/v1/input'
 payload = {
   "ddsource": "python",
-  "ddtags": "env:ruby-shop, service:store-frontend, source:ruby, team:frontend",
+  "ddtags": "env:ruby-shop, service:store-frontend, source:python, team:frontend",
   "hostname": "host01",
   "message": "{'event':'add_to_cart','item':" + json.dumps(random.choice(items)) + "}",
   "service": "store-frontend"
