@@ -23,6 +23,7 @@ Once you’re confident this is the data that will allow you to track revenue, y
 Now that you’ve created your metric, Select **See in Metric Explorer**
 
 From here you can view your new metric 
+
 Next, get started with our Executive Dashboard by choosing **Export to new Dashboard** → *Add Details* → **View Dashboard**
 
 Up next...Create your checkout uptime metrics
