@@ -1,4 +1,5 @@
-In Terminal 1, change the working directory with the command `cd lab/ecommworkshop/docker-compose-files`{{execute}}. 
+### In Terminal 1 
+Dhange the working directory with the command `cd lab/ecommworkshop/docker-compose-files`{{execute}}. 
 
 Enter the following, where `<DD_API_KEY>` is your Datadog API key. *Note: this is a temporary development step until this workshop lives at labs.datadoghq.com.*
 
@@ -14,7 +15,10 @@ Once docker-compose has started the Storedog app, you will see a stream of log o
 
 You can interact with the Storedog app by clicking on the Storedog tab. It may take a minute or two to display.
 
-You can generate traffic to the Storedog app using the [GoReplay](https://github.com/buger/goreplay) utility. Open Terminal 2 and change the working directory with the command `cd lab/ecommworkshop`{{execute}}
+You can generate traffic to the Storedog app using the [GoReplay](https://github.com/buger/goreplay) utility. 
+
+### Open Terminal 2 
+Change the working directory with the command `cd lab/ecommworkshop`{{execute}}
 
 Then run the command `./gor --input-file-loop --input-file requests_0.gor --output-http "http://localhost:3000"`{{execute}}
 
