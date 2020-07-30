@@ -1,5 +1,6 @@
 # Make the appp code available in the IDE
 ln -s /ecommworkshop /root
+mv /root/postlogs.py /root/ecommworkshop
 
 # Enable system probe for NPM
 sed -i "/- DD_TAGS='env:ruby-shop'/r"<(
