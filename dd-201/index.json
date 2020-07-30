@@ -32,7 +32,7 @@
         "host01": [
           {
             "file": "postlogs.py",
-            "target": "/root/ecommworkshop",
+            "target": "/root",
             "chmod": "+x"
           }
 	]
