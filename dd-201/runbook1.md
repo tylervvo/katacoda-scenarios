@@ -2,8 +2,9 @@ Now that we have drill-down graphs set up, let’s create a shared runbook to he
  
 ## Adding a Notebook
 In your navigation bar, find the Notebook icon and click “New Notebook”, or go to https://app.datadoghq.com/notebook. Give it a name like `Debugging Spree Services`{{copy}}.  
+Notebooks support Datadog graphs from all data sources along with markdown cells to provide context. Add a cell by hovering over the `+` button. 
  
-Let’s start by adding an overview of your services. You can paste this overview that a teammate has already written.
+Let’s start by adding an overview of your services in a new markdown cell. You can paste this overview that a teammate has already written.
  
 ```{{copy}}
 ## Service Overview
