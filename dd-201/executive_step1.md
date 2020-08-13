@@ -16,6 +16,8 @@ We are going to start off with a blank dashboard by
 3. Adding a dashboard title
 4. Selecting **New Screenboard**
 
+*Don't forget to ★ your dashboard to find again*
+
 #### Create your revenue metric 
 Start by navigating to `https://app.datadoghq.com/logs`{{copy}} and searching for `service:store-cartlogger`{{copy}}
 
