@@ -1,4 +1,14 @@
 ### In Terminal 1 
+
+First we will check if we are in the right Datadog application. Sign in to the Datadog account that was created by Learning Labs.
+
+[Check your API Key](https://app.datadoghq.com/account/settings#api) in Datadog.
+
+Now run the following command in the terminal and check that the API key printed matches the API key on your Datadog account. If it does not match, that means you are on the incorrect Datadog account! Switch to the Datadog account that was created by Learning Labs.
+
+`env | grep DD_API`{{execute}}
+
+
 Change the working directory with the command `cd ecommworkshop`{{execute}}. 
 
 Now let's make sure that we enable RUM data to come into the platform
