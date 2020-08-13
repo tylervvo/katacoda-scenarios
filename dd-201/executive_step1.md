@@ -8,6 +8,14 @@ This could be anything, but for the sake of argument, let’s say it’s
 
 To create a revenue metric we will first need to find that data. 
 
+#### Create your Dashboard
+
+We are going to start off with a blank dashboard by 
+1. Navigating to the **Dashboards**
+2. Choosing **New Dashboard**
+3. Adding a dashboard title
+4. Selecting **New Screenboard**
+
 #### Create your revenue metric 
 Start by navigating to `https://app.datadoghq.com/logs`{{copy}} and searching for `service:store-cartlogger`{{copy}}
 
