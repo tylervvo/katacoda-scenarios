@@ -1,4 +1,4 @@
-### Step 1 - top level metrics… Continued
+### Step 1 - Top level metrics… Continued
 
 
 **Create your checkout uptime metrics**
