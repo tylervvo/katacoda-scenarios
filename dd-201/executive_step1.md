@@ -36,4 +36,4 @@ Now that you’ve created your metric,
 - From here you can view your new metric 
 - Get started with our Executive Dashboard by choosing **Export to new Dashboard** → *Add Details* → **View Dashboard**
 
-Up next...Create your checkout uptime metrics
+Up next... Create your checkout uptime metrics
