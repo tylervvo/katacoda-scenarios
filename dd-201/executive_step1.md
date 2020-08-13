@@ -1,6 +1,6 @@
 Suppose you have an executive who is interested in getting regular updates about the health of your services. Rather than sending a manual update every month, you instead create a self service executive dashboard.
 
-### Step 1 - top level metrics
+### Step 1 - Top level metrics
 
 This could be anything, but for the sake of argument, let’s say it’s 
 1. Revenue 
