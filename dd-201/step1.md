@@ -19,11 +19,9 @@ Now let's make sure that we enable RUM data to come into the platform
   
 In the **Start collecting data section**, copy the `applicationId` and `clientToken` from the block of JavaScript code.
 
-Set these values in the first Terminal of your lab environment:
-```bash
-export DD_APPLICATION_ID=<applicationId>
-export DD_CLIENT_TOKEN=<clientToken>
-```
+Set these values in the first Terminal of your lab environment:  
+`export DD_APPLICATION_ID=<applicationId>`{{copy}}  
+`export DD_CLIENT_TOKEN=<clientToken>`{{copy}}  
 
 Now run this command to start up the Storedog application:
 
@@ -41,5 +39,5 @@ Change the working directory with the command `cd ecommworkshop`{{execute}}
 
 Then run the command `./gor --input-file-loop --input-file requests_0.gor --output-http "http://localhost:3000"`{{execute}}
 
-In a few minutes you will see metrics in the Datadog app.
+In a few minutes you will see data in the Datadog app.
 
