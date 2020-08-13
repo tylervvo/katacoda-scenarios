@@ -7,6 +7,7 @@ Let's copy some pre-built RUM graphs:
 - Click **Dashboards** → **Performance**
 - Choose the graphs that might explain changes in your top-level metrics
 
+*If your not seeing any RUM data, make sure to click around in the page to start seeing real-time data*
 
 Let's also copy some re-built Docker graphs:
 - Navigate to **Dashboard List** under Dashboards and find **Docker - Overview** or go to `https://app.datadoghq.com/screen/integration/52/docker---overview`{{copy}}
