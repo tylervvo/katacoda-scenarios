@@ -39,10 +39,6 @@ You can generate traffic to the Storedog app using the [GoReplay](https://github
 
 Change the working directory with the command `cd ecommworkshop`{{execute}}
 
-Then run the command `./postlogs.py 50 &`{{execute}}
-
-You will now be able to see logs being sent to the Datadog app.
-
 Then run the command `./gor --input-file-loop --input-file requests_0.gor --output-http "http://localhost:3000"`{{execute}}
 
 In a few minutes you will see metrics in the Datadog app.
