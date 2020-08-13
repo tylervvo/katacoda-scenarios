@@ -9,10 +9,11 @@ This could be anything, but for the sake of argument, let’s say it’s
 To create a revenue metric we will first need to find that data. 
 
 #### Create your revenue metric 
-Start by navigating to `https://app.datadoghq.com/logs`{{copy}} and searching for `add search term here`{{copy}}
+Start by navigating to `https://app.datadoghq.com/logs`{{copy}} and searching for `service:store-cartlogger`{{copy}}
 
 Once you’re confident this is the data that will allow you to track revenue, you’re going to want to store that metric over time. 
 
+- Create a measure on your **price** and **cost** by clicking on the item and selecting **Create measure for @item.price** and **@item.cost**
 - Start by copying your query
 - Navigate to **Generate Metrics** under the Logs navigation item
 - Select **New Metric** 
