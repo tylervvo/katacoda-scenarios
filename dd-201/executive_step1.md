@@ -2,7 +2,7 @@ Suppose you have an executive who is interested in getting regular updates about
 
 ### Step 1 - Top level metrics
 
-This could be anything, but for the sake of argument, let’s say it’s 
+This could be anything, but for the sake of argument, let’s say it’s: 
 1. Revenue 
 2. Checkout uptime
 
@@ -13,10 +13,10 @@ To create a revenue metric we will first need to find that data.
 We are going to start off with a blank dashboard by 
 1. Navigating to the **Dashboards**
 2. Choosing **New Dashboard**
-3. Adding a dashboard title
+3. Adding a dashboard title, like `Store Service Overview`
 4. Selecting **New Screenboard**
 
-*Don't forget to ★ your dashboard to find again*
+*Don't forget to ★ your dashboard to easily find it again.*
 
 #### Create your revenue metric 
 Start by navigating to `https://app.datadoghq.com/logs`{{copy}} and searching for `service:store-cartlogger`{{copy}}
@@ -34,6 +34,7 @@ Once you’re confident this is the data that will allow you to track revenue, y
 Now that you’ve created your metric, 
 - Select **See in Metric Explorer**
 - From here you can view your new metric 
-- Get started with our Executive Dashboard by choosing **Export to new Dashboard** → *Add Details* → **View Dashboard**
+- Get started with our Executive Dashboard by choosing **Export to existing dashboard**
+- Select the dashboard you created earlier (`Store Service Overview`) and click **Export**
 
 Up next... Create your checkout uptime metrics
