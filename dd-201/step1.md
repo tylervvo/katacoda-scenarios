@@ -1,6 +1,6 @@
 ### In Terminal 1 
 
-First we will check if we are in the right Datadog application. Sign in to the Datadog account that was created by Learning Labs.
+First we will check if we are in the right Datadog account. Sign in to the Datadog account that was created by Learning Labs.
 
 [Check your API Key](https://app.datadoghq.com/account/settings#api) in Datadog.
 
