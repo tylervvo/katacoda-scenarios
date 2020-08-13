@@ -9,9 +9,9 @@ Now run the following command in the terminal and check that the API key printed
 `env | grep DD_API`{{execute}}
 
 
-Change the working directory with the command `cd ecommworkshop`{{execute}}. 
+Change the working directory with the command `cd ecommworkshop`{{execute}} 
 
-Now let's make sure that we enable RUM data to come into the platform
+Now let's make sure that we enable RUM data to come into the platform.
 
 [Create a new application](https://app.datadoghq.com/rum/list) in Datadog. 
   - Give it a name, such as Storedog
