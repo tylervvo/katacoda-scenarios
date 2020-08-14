@@ -1,4 +1,4 @@
-### Step 1 - top level metrics… Continued
+### Step 1 - Top level metrics… Continued
 
 
 **Create your checkout uptime metrics**
@@ -10,7 +10,9 @@ We’re going to do this by creating a synthetics test
 - Navigate to **Synthetics Tests** under UX Monitoring or go to `https://app.datadoghq.com/synthetics/list`{{copy}}
 - Click **Get Started**
 - Choose **New Browser Test**
-- Fill out url, name, and locations
+- Fill out url/domain - Choose the domain of storedog 
+- Fill in the name of your test - (This can be anything)
+- Choose the locations you want your test to run - (This can be anything)
 - Add the chrome extension 
 - Click **Start Recording** and Record your test
 - Select **Save and Launch Test**

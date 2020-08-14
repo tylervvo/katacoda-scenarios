@@ -1,7 +1,16 @@
-### In Terminal 1 
-Change the working directory with the command `cd ecommworkshop`{{execute}}. 
+### In The Terminal 
 
-Now let's make sure that we enable RUM data to come into the platform
+First we will check if we are in the right Datadog account. Sign in to the Datadog account that was created by Learning Labs.
+
+[Check your API Key](https://app.datadoghq.com/account/settings#api) in Datadog.
+
+Now run the following command in the terminal and check that the API key printed matches the API key on your Datadog account. If it does not match, that means you are on the incorrect Datadog account! Switch to the Datadog account that was created by Learning Labs.
+
+`env | grep DD_API`{{execute}}
+
+Change the working directory with the command `cd ecommworkshop`{{execute}} 
+
+Now let's make sure that we enable RUM data to come into the platform.
 
 [Create a new application](https://app.datadoghq.com/rum/list) in Datadog. 
   - Give it a name, such as Storedog
@@ -9,11 +18,9 @@ Now let's make sure that we enable RUM data to come into the platform
 
 In the **Start collecting data section**, copy the `applicationId` and `clientToken` from the block of JavaScript code.
 
-Set these values as environment variables in Terminal 1:
-```bash
-export DD_APPLICATION_ID=<applicationId>
-export DD_CLIENT_TOKEN=<clientToken>
-```
+Set these values in the first Terminal of your lab environment:  
+`export DD_APPLICATION_ID=<applicationId>`{{copy}}  
+`export DD_CLIENT_TOKEN=<clientToken>`{{copy}}  
 
 Now run this command to start up the Storedog application:
 
@@ -26,10 +33,6 @@ You can interact with the Storedog app by clicking on the Storedog tab. It may t
 ### Open Terminal 2 
 
 Change the working directory with the command `cd ecommworkshop`{{execute}}
-
-Then run the command `./postlogs.py 50 &`{{execute}}
-
-You will now be able to see logs being sent to the Datadog app.
 
 Let's generate traffic to the Storedog app using the [GoReplay](https://github.com/buger/goreplay) utility by running the command `./gor --input-file-loop --input-file requests_0.gor --output-http "http://localhost:3000"`{{execute}}
 

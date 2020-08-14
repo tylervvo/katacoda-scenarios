@@ -28,7 +28,7 @@ Going back to our cloned performance overview dashboard, we can link to our runb
 
 Edit the `Frontend Errors` graph and click the `Custom Links` tab.
 
-Copy in the URL of our notebook and give it a name, like `Sprees Runbook for {{$env.value}}`{{copy}}. This will populate the link name with our `env` template variable. Click Done and Save.  
+Like we did earlier, copy in the URL of our notebook and give it a name, like `Sprees Runbook for {{$env.value}}`{{copy}}. This will populate the link name with our `env` template variable. Click Done and Save.  
 
 Now, when we set `env` to `prod`, we can click on the `Frontend Errors` graph and see that our custom link has updated.  
 
