@@ -36,4 +36,4 @@ Change the working directory with the command `cd ecommworkshop`{{execute}}
 
 Let's generate traffic to the Storedog app using the [GoReplay](https://github.com/buger/goreplay) utility by running the command `./gor --input-file-loop --input-file requests_0.gor --output-http "http://localhost:3000"`{{execute}}
 
-In a few minutes you will see metrics in the Datadog app.
+In a few minutes you will see data in the Datadog app.
