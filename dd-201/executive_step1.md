@@ -19,7 +19,7 @@ We are going to start off with a blank dashboard by
 *Don't forget to ★ your dashboard to easily find it again.*
 
 #### Create your revenue metric 
-Start by navigating to `https://app.datadoghq.com/logs`{{copy}} and searching for `service:store-cartlogger`{{copy}}
+Start by navigating to [Logs Explorer](https://app.datadoghq.com/logs) and searching for `service:store-cartlogger`{{copy}}
 
 Once you’re confident this is the data that will allow you to track revenue, you’re going to want to store that metric over time. 
 
