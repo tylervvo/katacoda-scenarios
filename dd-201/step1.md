@@ -28,7 +28,7 @@ Now run this command to start up the Storedog application:
 
 Once docker-compose has started the Storedog app, you will see a stream of log output in Terminal 1.
 
-You can interact with the Storedog app by clicking on the Storedog tab. It may take a minute or two to display.
+You can interact with the Storedog app by clicking on the Storedog tab. It may take a minute or two to display. If you see a page displaying "Connecting to Port 3000," wait a little while and then refresh your browser.
 
 ### Open Terminal 2 
 
